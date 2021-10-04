@@ -6,22 +6,22 @@ const Service = (props) => {
     const { practice_class: practice, theory_class: theory, psychological_consultation_class: consultation } = features || {}
     const detailsPagePath = `/services/${courseID}`
     return (
-        <div class="col service-container">
-            <div class="card h-100">
+        <div className="col service-container">
+            <div className="card h-100">
                 <img src={courseImage} className="card-img-top p-2" alt="No Image Available" />
-                <div class="card-body">
-                    <h5 class="card-title text-center">{title}</h5>
-                    <p class="card-text text-light">{info}</p>
+                <div className="card-body">
+                    <h5 className="card-title text-center">{title}</h5>
+                    <p className="card-text text-light">{info}</p>
                 </div>
-                <ul class="list-group list-group-flush list-group-numbered">
-                    <li class="list-group-item ps-3 py-0"><small>Practical Class: {practice}</small></li>
-                    <li class="list-group-item ps-3 py-0"><small>Theory Class: {theory}</small></li>
-                    <li class="list-group-item ps-3 py-0"><small>Psychological Class: {consultation}</small></li>
-                    <li class="list-group-item ps-3 py-0"><small>Total Class: {practice + theory + consultation}</small></li>
+                <ul className="list-group list-group-flush list-group-numbered">
+                    <li className="list-group-item ps-3 py-0"><small>Practical Class: {practice}</small></li>
+                    <li className="list-group-item ps-3 py-0"><small>Theory Class: {theory}</small></li>
+                    <li className="list-group-item ps-3 py-0"><small>Psychological Class: {consultation}</small></li>
+                    <li className="list-group-item ps-3 py-0"><small>Total Class: {practice + theory + consultation}</small></li>
                 </ul>
-                <div class="card-footer text-center">
-                    <Link exact to={detailsPagePath}><button class="btn btn-sm btn-primary">Details</button></Link>
-                    <Link exact to="/enrollment"><button class="btn btn-sm btn-primary">Enroll</button></Link>
+                <div className="card-footer text-center">
+                    <Link exact to={detailsPagePath}><button className="btn btn-sm btn-primary">Details</button></Link>
+                    <Link exact to="/enrollment"><button className=" ms-2 btn btn-sm btn-primary">Enroll</button></Link>
                 </div>
             </div>
         </div>
