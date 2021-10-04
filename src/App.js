@@ -2,7 +2,6 @@ import './App.css';
 import Header from './component/Header/Header';
 import Services from './component/Services/Services';
 import ServiceDetails from './component/ServiceDetails/ServiceDetails';
-import Team from './component/Team/Team';
 import About from './component/About/About';
 import Contact from './component/Contact/Contact';
 import NotFound from './component/NotFound/NotFound';
@@ -15,7 +14,9 @@ import { useCompany } from './Hooks/useCompany';
 import { useTeam } from './Hooks/useTeam';
 export const companyContext = createContext()
 function App() {
+  // Get Company Details 
   const [company, setCompany] = useCompany()
+  // Get Compnay All team Members 
   const [team, setTeam] = useTeam()
   return (
     <companyContext.Provider value={[team, company]}>
@@ -28,11 +29,13 @@ function App() {
               <Services type="home_page"></Services>
             </Route>
             <Route exact path="/services">
+              {/* if homepage then show 4 services, otherwise show all  */}
               <Services type="services_page"></Services>
             </Route>
             <Route exact path="/services/:serviceID">
               <ServiceDetails />
             </Route>
+            {/* If click on Team navlink on menubar then hide company information from about component  */}
             <Route exact path="/team">
               <About type="team_page"></About>
             </Route>

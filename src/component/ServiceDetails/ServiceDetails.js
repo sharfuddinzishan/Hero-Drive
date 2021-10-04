@@ -1,14 +1,14 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { useServices } from '../../Hooks/useServices';
 import './ServiceDetails.css'
 import { useParams } from 'react-router';
-import { BrowserRouterasRouter, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const ServiceDetails = () => {
     const { serviceID } = useParams()
-    const [services, setServices] = useServices(true);
+    const [services] = useServices(true);
     const getSingleServiceInfo = services.find(service => service.course_id == serviceID)
-    const { course_id: courseID, title, fee, info, description, service_image: courseImage, features } = getSingleServiceInfo || {}
+    const { title, fee, info, description, service_image: courseImage, features } = getSingleServiceInfo || {}
     const { practice_class: practice, theory_class: theory, psychological_consultation_class: consultation } = features || {}
 
     console.log(getSingleServiceInfo)
@@ -25,7 +25,7 @@ const ServiceDetails = () => {
                     <div className="col-md-8">
                         <h3 className="my-3">Course Description</h3>
                         {
-                            description?.map(pd => <p className="text-light fw-lighter">{pd}</p>)
+                            description?.map((pd, index) => <p key={index} className="text-light fw-lighter">{pd}</p>)
                         }
                         <h3 className="my-3">This Course Offer</h3>
                         <ul>
