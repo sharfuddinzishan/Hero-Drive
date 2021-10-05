@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './Header.css'
 
 const Header = () => {
@@ -7,7 +7,7 @@ const Header = () => {
         <>
             <nav className="navbar navbar-expand-md navbar-light bg-light">
                 <div className="container-fluid">
-                    <a className="navbar-brand fw-bold" href="/">Hero Driving</a>
+                    <Link className="navbar-brand fw-bold" to="/">Hero Driving</Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
