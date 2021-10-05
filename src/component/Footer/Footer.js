@@ -38,9 +38,9 @@ const Footer = () => {
                         </div>
                         <div className="col col-md-6">
                             <div className="social-icons">
-                                <a href="https://www.facebook.com/herodriving/" rel="noopener noreferrer" target="_blank"><i className='bx bxl-facebook'></i></a>
-                                <a href="https://www.twitter.com/herodriving/" rel="noopener noreferrer" target="_blank"><i className='bx bxl-twitter'></i></a>
-                                <a href="https://www.linkedin.com/herodriving/" rel="noopener noreferrer" target="_blank"><i className='bx bxl-linkedin'></i></a>
+                                <a href="https://www.facebook.com/herodriving/" rel="noopener noreferrer" target="_blank"><i className='bx bx-flashing bxl-facebook'></i></a>
+                                <a href="https://www.twitter.com/herodriving/" rel="noopener noreferrer" target="_blank"><i className='bx bx-flashing bxl-twitter'></i></a>
+                                <a href="https://www.linkedin.com/herodriving/" rel="noopener noreferrer" target="_blank"><i className='bx bx-flashing bxl-linkedin'></i></a>
                             </div>
                         </div>
                     </div>
