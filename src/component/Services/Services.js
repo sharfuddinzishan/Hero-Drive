@@ -16,7 +16,7 @@ const Services = (props) => {
             <div className="row row-cols-1 row-cols-md-3 g-3">
                 {
                     props.type === 'home_page'
-                        ? services.slice(0, 3).map(service => <Service key={service.course_id} service={service}></Service>)
+                        ? services.slice(0, 6).map(service => <Service key={service.course_id} service={service}></Service>)
                         : services.map(service => <Service key={service.course_id} service={service}></Service>)
                 }
             </div>

@@ -5,6 +5,7 @@ import './Service.css'
 const Service = (props) => {
     const { course_id: courseID, title, info, service_image: courseImage, features } = props.service || {}
     const { practice_class: practice, theory_class: theory, psychological_consultation_class: consultation } = features || {}
+    // Generate ServiceDetails URL 
     const detailsPagePath = `/services/${courseID}`
 
     return (
@@ -22,6 +23,7 @@ const Service = (props) => {
                     <li className="list-group-item ps-3 py-0"><small>Total Class: {practice + theory + consultation}</small></li>
                 </ul>
                 <div className="card-footer text-center">
+                    {/* Go to service details page  */}
                     <Link to={detailsPagePath}><button className="btn btn-sm btn-primary">Details</button></Link>
                     <Link to="/enrollment"><button className="btn btn-sm btn-primary ms-2">Enroll</button></Link>
                 </div>

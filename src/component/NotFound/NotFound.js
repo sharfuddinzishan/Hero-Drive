@@ -4,9 +4,9 @@ import './NotFound.css'
 
 const NotFound = () => {
     return (
-        <div className="container text-center">
+        <div className="container text-center p-5">
             <h1 className="text-warning display-1">404</h1>
-            <p>The Page You Are Looking, Not Found</p>
+            <p className="text-light fw-bold display-1">The Page You Are Looking, Not Found</p>
             <NavLink
                 to="/"
                 activeStyle={{
@@ -14,7 +14,7 @@ const NotFound = () => {
                     color: "red"
                 }}
             >
-                <span className="nav-link" >Home</span>
+                <button className="btn btn-lg btn-link btn-primary text-light"> HOMEPAGE </button>
             </NavLink>
         </div>
     );
