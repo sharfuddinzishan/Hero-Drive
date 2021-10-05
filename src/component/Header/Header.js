@@ -14,7 +14,7 @@ const Header = () => {
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav ms-auto">
                             <NavLink
-                                to="/"
+                                to="/home"
                                 activeStyle={{
                                     fontWeight: "bold",
                                     color: "red"

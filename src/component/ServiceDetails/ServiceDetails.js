@@ -3,19 +3,15 @@ import { useServices } from '../../Hooks/useServices';
 import './ServiceDetails.css'
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
-import NotFound from '../NotFound/NotFound';
 
 const ServiceDetails = () => {
     // get serviceID from url 
     const { serviceID } = useParams();
     // get services info from json 
     // send true as parameter as when route change after click on Details Button, then have to update url of json 
+    // Navigated to /services to Navigated to /services/1
     const [services] = useServices(true);
     const getSingleServiceInfo = services?.find(service => service.course_id === Number(serviceID))
-    // Check if given wrong path or request send not valid 
-    if (!getSingleServiceInfo?.course_id) {
-        return <NotFound></NotFound>
-    }
     const { title, fee, info, description, service_image: courseImage, features } = getSingleServiceInfo || {}
     const { practice_class: practice, theory_class: theory, psychological_consultation_class: consultation } = features || {}
 

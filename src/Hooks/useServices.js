@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 export const useServices = (route) => {
     const [services, setServices] = useState([]);
     useEffect(() => {
-        let url = "./herodriving.json"
+        let url
         if (!route) {
             url = "./herodriving.json"
         }
@@ -10,10 +10,8 @@ export const useServices = (route) => {
             url = "../herodriving.json"
         }
         fetch(`${url}`)
-            .then(response => response.json()
-                .then(data => {
-                    setServices(data.Services)
-                }))
+            .then(response => response.json())
+            .then(data => setServices(data.Services))
     }, [route])
     return [services, setServices]
 }
