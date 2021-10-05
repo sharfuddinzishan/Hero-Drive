@@ -1,8 +1,6 @@
-# Project Name
+# Project Name: Hero Team Drive
 
-*Hero Team Drive*
-
-### Deployment
+## Deployment
 
 This Project Deploy in Netlify: [https://hero-driving.netlify.app/]
 
