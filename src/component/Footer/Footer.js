@@ -17,7 +17,7 @@ const Footer = () => {
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/about">About</Link></li>
                             <li><Link to="/services">Services</Link></li>
-                            <li><Link to="/team">Our Team</Link></li>
+                            <li><Link to="/teams">Our Team</Link></li>
                         </ul>
                     </div>
                     <div className="col-md-6">
