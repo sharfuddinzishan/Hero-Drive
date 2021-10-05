@@ -23,7 +23,7 @@ const ServiceDetails = () => {
                 </h1>
                 <div className="row">
                     <div className="col-md-4">
-                        <img className="img-fluid" src={courseImage} alt="" />
+                        <img className="img-fluid" src={courseImage} alt="" /><br />
                     </div>
                     <div className="col-md-8">
                         <h4 className="text-light fw-lighter">Course Fee: {fee}</h4>
@@ -37,6 +37,7 @@ const ServiceDetails = () => {
                             <li className="text-info">{theory} Theory Classes</li>
                             <li className="text-info">Special {consultation} Psychological Consultation Classes</li>
                         </ul>
+                        <Link to="/enrollment"><button className="btn btn-lg btn-primary mt-2 d-block mx-auto">Enroll</button></Link>
                     </div>
                 </div>
 
@@ -52,7 +53,7 @@ const ServiceDetails = () => {
                                         <div className="card">
                                             <img className="card-img-top opacity-25" src={pd?.service_image} alt={pd?.title} />
                                             <div className="card-img-overlay ">
-                                                <h4 className="text-light fw-bold fs-5">{pd?.title}</h4>
+                                                <small className="text-light fw-bold">{pd?.title}</small>
                                                 <div className="">
                                                     <Link to={detailsPagePath}><button className="btn btn-sm btn-primary rounded-pill text-light fw-bold">Details</button></Link>
                                                     <p className=" text-light fs-5 fw-bolder">Course Fee {pd?.fee}</p>
