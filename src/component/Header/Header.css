@@ -1,0 +1,9 @@
+.nav-link{
+    transition: 0.5s;
+}
+.nav-link:hover{
+    transform: scale(0.8);
+    background: turquoise;
+    color: #fff !important;
+    border-radius: 50%;
+}
