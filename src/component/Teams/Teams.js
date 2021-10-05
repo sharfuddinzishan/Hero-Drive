@@ -1,5 +1,4 @@
 import React, { useContext } from 'react';
-import './Teams.css'
 import { companyContext } from '../../App';
 import Team from './../Team/Team';
 

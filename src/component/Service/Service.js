@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Service.css'
 
 const Service = (props) => {
     const { course_id: courseID, title, info, service_image: courseImage, features } = props.service || {}
