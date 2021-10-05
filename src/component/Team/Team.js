@@ -16,7 +16,11 @@ const Team = (props) => {
                         <strong>{experience} Years of Experience</strong> <br />
                         <small>Mobile: {mobile[0] || "N/A"}</small> <br />
                         <small>Email: {email[0] || "N/A"}</small> <br />
-                        <small>{skills}</small>
+                        {/* Show Skills of each team member  */}
+                        <small className="info d-block fw-bold lh-1">Skills:
+                            {skills?.map((pd, index) =>
+                                <span key={index} className="text-capitalize skill-text bg-info d-inline-block m-1 p-1 rounded-3">{pd}</span>)}
+                        </small>
                     </div>
                     <div className="social-icons">
                         {
