@@ -1,196 +1,199 @@
 {
-   "Company":{
-      "name":"Hero Driving Training Institute",
-      "year_of":"2018",
-      "slogans":[
+   "Company": {
+      "name": "Hero Driving",
+      "year_of": "2018",
+      "slogans": [
          "OUR MISSION IS TO IMPROVE DRIVER SAFETY ON THE ROAD"
       ],
-      "contact":{
-         "location_text":"USA, LOS ANGELES,901 East E Street, Wilmington, CA 90744",
-         "mobile":[
+      "contact": {
+         "location_text": "USA, LOS ANGELES,901 East E Street, Wilmington, CA 90744",
+         "contact_email": [
+            "margueritemckay@hero-driving.com"
+         ],
+         "mobile": [
             "(025) 805-0116"
          ],
-         "socialLink":{
-            "facebook":"https://www.facebook.com/herodriving/",
-            "linkedin":"https://www.linkedin.com/company/herodriving",
-            "twitter":"http://twitter.com/herodriving",
-            "youtube":"https://www.youtube.com/herodriving"
+         "socialLink": {
+            "facebook": "https://www.facebook.com/herodriving/",
+            "linkedin": "https://www.linkedin.com/company/herodriving",
+            "twitter": "http://twitter.com/herodriving",
+            "youtube": "https://www.youtube.com/herodriving"
          }
       }
    },
-   "Team":[
+   "Team": [
       {
-         "id":"100",
-         "name":"Marguerite Mckay",
-         "year_of_experience":11,
-         "age":40,
-         "gender":"female",
-         "role":"Head Instructor",
-         "skills":[
+         "id": "100",
+         "name": "Marguerite Mckay",
+         "year_of_experience": 11,
+         "age": 40,
+         "gender": "female",
+         "role": "Head Instructor",
+         "skills": [
             "Teen Programs",
             "Adult Instruction",
             "Road Test",
             "Defensive Driving"
          ],
-         "contact":{
-            "mobile":[
+         "contact": {
+            "mobile": [
                "+1 (813) 485-2951"
             ],
-            "email":[
+            "email": [
                "margueritemckay@comcubine.com"
             ],
-            "socialLink":{
-               "facebook":"http://www.facebook.com/margueritemckay",
-               "linkedin":"http://www.linkedin.com/in/margueritemckay",
-               "twitter":"http://www.twitter.com/margueritemckay"
+            "socialLink": {
+               "facebook": "http://www.facebook.com/margueritemckay",
+               "linkedin": "http://www.linkedin.com/in/margueritemckay",
+               "twitter": "http://www.twitter.com/margueritemckay"
             }
          },
-         "picture":{
-            "fullImage":"https://i.im.ge/2021/10/04/TviwRW.jpg",
-            "thumbImage":"https://i.im.ge/2021/10/04/TviwRW.th.jpg"
+         "picture": {
+            "fullImage": "https://i.im.ge/2021/10/04/TviwRW.jpg",
+            "thumbImage": "https://i.im.ge/2021/10/04/TviwRW.th.jpg"
          }
       },
       {
-         "id":"101",
-         "name":"Gamble Simpson",
-         "year_of_experience":14,
-         "age":44,
-         "gender":"male",
-         "role":"Theory Instructor",
-         "skills":[
+         "id": "101",
+         "name": "Gamble Simpson",
+         "year_of_experience": 14,
+         "age": 44,
+         "gender": "male",
+         "role": "Theory Instructor",
+         "skills": [
             "Auto Gear",
             "Collision Avoidances",
             "Road Test",
             "Defensive Driving"
          ],
-         "contact":{
-            "mobile":[
+         "contact": {
+            "mobile": [
                "+1 (841) 528-2341"
             ],
-            "email":[
+            "email": [
                "gamblesimpson@comcubine.com"
             ],
-            "socialLink":{
-               "facebook":"http://www.facebook.com/gamblesimpson",
-               "linkedin":"http://www.linkedin.com/in/gamblesimpson",
-               "twitter":"http://www.twitter.com/gamblesimpson"
+            "socialLink": {
+               "facebook": "http://www.facebook.com/gamblesimpson",
+               "linkedin": "http://www.linkedin.com/in/gamblesimpson",
+               "twitter": "http://www.twitter.com/gamblesimpson"
             }
          },
-         "picture":{
-            "fullImage":"https://i.im.ge/2021/10/04/Tvi0t1.jpg",
-            "thumbImage":"https://i.im.ge/2021/10/04/Tvi0t1.th.jpg"
+         "picture": {
+            "fullImage": "https://i.im.ge/2021/10/04/Tvi0t1.jpg",
+            "thumbImage": "https://i.im.ge/2021/10/04/Tvi0t1.th.jpg"
          }
       },
       {
-         "id":"102",
-         "name":"Ursula Delaney",
-         "year_of_experience":7,
-         "age":35,
-         "gender":"male",
-         "role":"Bike Instructor",
-         "skills":[
+         "id": "102",
+         "name": "Ursula Delaney",
+         "year_of_experience": 7,
+         "age": 35,
+         "gender": "male",
+         "role": "Bike Instructor",
+         "skills": [
             "Manual Driving",
             "Driving Simulator"
          ],
-         "contact":{
-            "mobile":[
+         "contact": {
+            "mobile": [
                "+1 (841) 528-2344"
             ],
-            "email":[
+            "email": [
                "ursuladelaney@comcubine.com"
             ],
-            "socialLink":{
-               "facebook":"http://www.facebook.com/ursuladelaney",
-               "linkedin":"http://www.linkedin.com/in/ursuladelaney",
-               "twitter":"http://www.twitter.com/ursuladelaney"
+            "socialLink": {
+               "facebook": "http://www.facebook.com/ursuladelaney",
+               "linkedin": "http://www.linkedin.com/in/ursuladelaney",
+               "twitter": "http://www.twitter.com/ursuladelaney"
             }
          },
-         "picture":{
-            "fullImage":"https://i.im.ge/2021/10/04/TviiqP.jpg",
-            "thumbImage":"https://i.im.ge/2021/10/04/TviiqP.th.jpg"
+         "picture": {
+            "fullImage": "https://i.im.ge/2021/10/04/TviiqP.jpg",
+            "thumbImage": "https://i.im.ge/2021/10/04/TviiqP.th.jpg"
          }
       },
       {
-         "id":"103",
-         "name":"Ursula Delaney",
-         "year_of_experience":7,
-         "age":40,
-         "gender":"female",
-         "role":"Consultant",
-         "skills":[
+         "id": "103",
+         "name": "Ursula Delaney",
+         "year_of_experience": 7,
+         "age": 40,
+         "gender": "female",
+         "role": "Consultant",
+         "skills": [
             "Road Safety",
             "Traffic Rules"
          ],
-         "contact":{
-            "mobile":[
+         "contact": {
+            "mobile": [
                "+1 (841) 528-2344"
             ],
-            "email":[
+            "email": [
                "ursuladelaney@comcubine.com"
             ],
-            "socialLink":{
-               "facebook":"http://www.facebook.com/ursuladelaney",
-               "linkedin":"http://www.linkedin.com/in/ursuladelaney",
-               "twitter":"http://www.twitter.com/ursuladelaney"
+            "socialLink": {
+               "facebook": "http://www.facebook.com/ursuladelaney",
+               "linkedin": "http://www.linkedin.com/in/ursuladelaney",
+               "twitter": "http://www.twitter.com/ursuladelaney"
             }
          },
-         "picture":{
-            "fullImage":"https://i.im.ge/2021/10/04/Tvit3c.jpg",
-            "thumbImage":"https://i.im.ge/2021/10/04/Tvit3c.th.jpg"
+         "picture": {
+            "fullImage": "https://i.im.ge/2021/10/04/Tvit3c.jpg",
+            "thumbImage": "https://i.im.ge/2021/10/04/Tvit3c.th.jpg"
          }
       }
    ],
-   "Services":[
+   "Services": [
       {
-         "course_id":1,
-         "service_image":"https://i.im.ge/2021/10/04/TvmLSK.jpg",
-         "title":"Automatic Driving Lessons",
-         "level":"",
-         "info":"You Can Learn Top Rated Auto Gear Car Driving.",
-         "description":[
+         "course_id": 1,
+         "service_image": "https://i.im.ge/2021/10/04/TvmLSK.jpg",
+         "title": "Automatic Driving Lessons",
+         "level": "",
+         "info": "You Can Learn Top Rated Auto Gear Car Driving.",
+         "description": [
             "Perhaps automatic cars hit the first position in the preferred list of most of the city dwellers but auto car driving training is not that much available in the city. Yet you may find some of the training institutes but there are chances to face disappointments. Automatic cars are more demanding when you handle them than manual cars. Though the learning process is pretty easy the trainer must have proper knowledge about the beyond stereotype car."
          ],
-         "fee":9000,
-         "features":{
-            "practice_class":24,
-            "theory_class":4,
-            "psychological_consultation_class":2
+         "fee": 9000,
+         "features": {
+            "practice_class": 24,
+            "theory_class": 4,
+            "psychological_consultation_class": 2
          }
       },
       {
-         "course_id":2,
-         "service_image":"https://i.im.ge/2021/10/04/TvmhfX.jpg",
-         "title":"Manual Driving Lessons",
-         "level":"",
-         "info":"Contact Us! If You Want Manual Gear Car Driving Training.",
-         "description":[
+         "course_id": 2,
+         "service_image": "https://i.im.ge/2021/10/04/TvmhfX.jpg",
+         "title": "Manual Driving Lessons",
+         "level": "",
+         "info": "Contact Us! If You Want Manual Gear Car Driving Training.",
+         "description": [
             "A manual car has a gear system that you operate yourself by moving the gear stick and pressing down the clutch pedal."
          ],
-         "fee":7000,
-         "features":{
-            "practice_class":20,
-            "theory_class":4,
-            "psychological_consultation_class":2
+         "fee": 7000,
+         "features": {
+            "practice_class": 20,
+            "theory_class": 4,
+            "psychological_consultation_class": 2
          }
       },
       {
-         "course_id":3,
-         "service_image":"https://i.im.ge/2021/10/04/TvmaDz.jpg",
-         "title":"Bike Driving Lessons",
-         "level":"",
-         "info":"We provided Scooty And motorcycle training for females and males.",
-         "description":[
+         "course_id": 3,
+         "service_image": "https://i.im.ge/2021/10/04/TvmaDz.jpg",
+         "title": "Bike Driving Lessons",
+         "level": "",
+         "info": "We provided Scooty And motorcycle training for females and males.",
+         "description": [
             "Though roads of Bangladesh are flooded with motorbikes, the number of quality bike training center is minimal in the capital city.",
             "People here in Bangladesh often choose to get practical motorbike training from their ancestors. Even in earlier days people didn’t know of any proper school of bike training. But with the progression of strict BRTA rule, people now are obliged to get a license. Thus they do not have any option than to pick professional training.",
             "Now, there some big names regarding motor driving school in Dhaka. Go through the segment below to get basic knowledge on the pioneering motor driving schools in Dhaka"
          ],
-         "fee":5000,
-         "features":{
-            "practice_class":12,
-            "theory_class":4,
-            "psychological_consultation_class":4
+         "fee": 5000,
+         "features": {
+            "practice_class": 12,
+            "theory_class": 4,
+            "psychological_consultation_class": 4
          },
-         "additional":[
+         "additional": [
             "We claim to be the best bike learning center in Dhaka with our expert instructors and friendly learning environment.",
             "We do not only give our trainees practical knowledge over bikes because your grandparents can also teach you to ride bike. Rather we inject the safety rules into you to ensure your safety.",
             "Though we have different slots of training we aim mainly on traffic rules training. Because we believe that knowledge of rules can enhance your bike driving beyond the limits.",
@@ -198,21 +201,21 @@
          ]
       },
       {
-         "course_id":4,
-         "service_image":"https://i.im.ge/2021/10/04/Tvm7E6.jpg",
-         "title":"Collision Avoidances",
-         "level":"",
-         "info":"We provided Scooty And motorcycle training for females and males.",
-         "description":[
+         "course_id": 4,
+         "service_image": "https://i.im.ge/2021/10/04/Tvm7E6.jpg",
+         "title": "Collision Avoidances",
+         "level": "",
+         "info": "We provided Scooty And motorcycle training for females and males.",
+         "description": [
             "Join us for what may be the most important hours you’ll ever spend in a vehicle, learning how to survive the ever-increasing challenges of dealing with heavy traffic and distracted drivers."
          ],
-         "fee":15000,
-         "features":{
-            "practice_class":6,
-            "theory_class":2,
-            "psychological_consultation_class":2
+         "fee": 15000,
+         "features": {
+            "practice_class": 6,
+            "theory_class": 2,
+            "psychological_consultation_class": 2
          },
-         "additional":[
+         "additional": [
             "Ideal for the new driver, but open to drivers of all experience levels, the Advanced Collision Avoidance Training will build both skills and confidence.",
             "Our team of instructors will share their vast knowledge with you, giving you years of experience in a matter of hours. You’ll leave with a whole new level of appreciation and understanding of your vehicle – just what you need to survive today’s hectic roadways.",
             "Do you know what to do if a pedestrian stepped directly in front of your moving vehicle? Should you brake hard, steer to avoid, or some combination? What if your vehicle has ABS and Stability Control – how does that help? And where do you look? You’ll not only know the answers to these questions after the Advanced Collision Avoidance Training, but you’ll have begun the critical process turning these into habits you’ll rely on in the critical split second that precedes emergencies.",
@@ -220,87 +223,87 @@
          ]
       },
       {
-         "course_id":5,
-         "service_image":"https://i.im.ge/2021/10/04/TvmUN9.jpg",
-         "title":"Driver Improvement Lessons",
-         "level":"",
-         "info":"held via zoom due to covid-19 social distancing requirements",
-         "description":[
+         "course_id": 5,
+         "service_image": "https://i.im.ge/2021/10/04/TvmUN9.jpg",
+         "title": "Driver Improvement Lessons",
+         "level": "",
+         "info": "held via zoom due to covid-19 social distancing requirements",
+         "description": [
             "Impaired driving is one example of high-risk driving, but many motorists endanger the lives of others through behaviours that frequently cause motor vehicle collisions, including speeding, running red lights and stunting.",
             "Under this program, drivers are assigned points every time they are convicted of a traffic offence or have an at-fault collision. Drivers who reach their maximum threshold of points are sent a warning letter to advise that tougher sanctions will follow should their driving record continue to deteriorate.",
             "Drivers who continue their high-risk behaviour face consequences that include fines, driver's licence re-testing, driver's licence suspensions of up to six months and completion of a driver improvement training program."
          ],
-         "fee":5500,
-         "features":{
-            "practice_class":3,
-            "theory_class":2,
-            "psychological_consultation_class":2
+         "fee": 5500,
+         "features": {
+            "practice_class": 3,
+            "theory_class": 2,
+            "psychological_consultation_class": 2
          }
       },
       {
-         "course_id":6,
-         "service_image":"https://i.im.ge/2021/10/04/TvmsMS.jpg",
-         "title":"Defensive Driving School Simulator",
-         "level":"",
-         "info":"t features hundreds of driving scenarios to help target specific driving challenges our students face.",
-         "description":[
+         "course_id": 6,
+         "service_image": "https://i.im.ge/2021/10/04/TvmsMS.jpg",
+         "title": "Defensive Driving School Simulator",
+         "level": "",
+         "info": "t features hundreds of driving scenarios to help target specific driving challenges our students face.",
+         "description": [
             "The simulator car feels like a real car because it is. The seat, steering wheel, dash, gears, and pedals are from an actual vehicle. A lesson in our simulator is often more effective in solving problem areas because the instructor can choose scenarios that are relevant to their needs rather than try to recreate that on the real road. For example, if your student has trouble with right or left turns, we have multiple scenarios where they will be required to make turns in succession. In 15 minutes you can get in as many practice turns as you would in an hour-long lesson in your own car. For more information, watch the introductory video. The simulator is located at our Kirkland location."
          ],
-         "fee":13000,
-         "features":{
-            "practice_class":8,
-            "theory_class":6,
-            "psychological_consultation_class":3
+         "fee": 13000,
+         "features": {
+            "practice_class": 8,
+            "theory_class": 6,
+            "psychological_consultation_class": 3
          }
       },
       {
-         "course_id":7,
-         "service_image":"https://i.im.ge/2021/10/04/TvmhfX.jpg",
-         "title":"Adult Driving Lesson Packages",
-         "level":"",
-         "info":"The listed driving packages will help the student to develop safe driving habits.",
-         "description":[
+         "course_id": 7,
+         "service_image": "https://i.im.ge/2021/10/04/TvmhfX.jpg",
+         "title": "Adult Driving Lesson Packages",
+         "level": "",
+         "info": "The listed driving packages will help the student to develop safe driving habits.",
+         "description": [
             "Lessons are typically spread over five intensive lesson segments as the student is taught not only the fundamentals of defensive driving, but the Washington State Driving Practices as well. After the package of lessons, if the driver is not yet ready for the examination, individual lessons may be taken at the package rate."
          ],
-         "fee":11000,
-         "features":{
-            "practice_class":10,
-            "theory_class":6,
-            "psychological_consultation_class":3
+         "fee": 11000,
+         "features": {
+            "practice_class": 10,
+            "theory_class": 6,
+            "psychological_consultation_class": 3
          }
       },
       {
-         "course_id":8,
-         "service_image":"https://i.im.ge/2021/10/04/Tvm0r8.jpg",
-         "title":"Traffic Rule Lessons",
-         "level":"",
-         "info":"we will really make sure that you know all of the rules, signs, and signals that you need to pay attention to when you are out driving.",
-         "description":[
+         "course_id": 8,
+         "service_image": "https://i.im.ge/2021/10/04/Tvm0r8.jpg",
+         "title": "Traffic Rule Lessons",
+         "level": "",
+         "info": "we will really make sure that you know all of the rules, signs, and signals that you need to pay attention to when you are out driving.",
+         "description": [
             "One of the most important things that you must learn when you are out on the road is the different signs and signals you will come across. These information is critical, and we will help you memorize all of the signage that you will come across so you will be a safer driver. These rules are put into place in order to make driving safer and easier!"
          ],
-         "fee":11000,
-         "features":{
-            "practice_class":2,
-            "theory_class":5,
-            "psychological_consultation_class":0
+         "fee": 11000,
+         "features": {
+            "practice_class": 2,
+            "theory_class": 5,
+            "psychological_consultation_class": 0
          }
       },
       {
-         "course_id":9,
-         "service_image":"https://i.im.ge/2021/10/04/TvmDJF.jpg",
-         "title":"The Basics Of Driving Training",
-         "level":"",
-         "info":"Basic Driving Skills guide covers the fundamental routines that you’ll need to master before anything else.",
-         "description":[
+         "course_id": 9,
+         "service_image": "https://i.im.ge/2021/10/04/TvmDJF.jpg",
+         "title": "The Basics Of Driving Training",
+         "level": "",
+         "info": "Basic Driving Skills guide covers the fundamental routines that you’ll need to master before anything else.",
+         "description": [
             "10 primary topics to be covered when receiving instruction from our driving school"
          ],
-         "fee":10000,
-         "features":{
-            "practice_class":5,
-            "theory_class":10,
-            "psychological_consultation_class":2
+         "fee": 10000,
+         "features": {
+            "practice_class": 5,
+            "theory_class": 10,
+            "psychological_consultation_class": 2
          },
-         "additional":[
+         "additional": [
             "Car Basics: If you did not know about cars before, you will learn the fundamentals directly through driving instruction. Lights, brakes, gears, windshield wipers, and much more are all crucial parts of a car for a driver. To operate a motor vehicle, you will need to study the basics of how they work and how drivers use them.",
             "Defensive Driving: Once you get behind the wheel, you are expected to act responsibly. By driving “defensively” you are committing yourself to drive non-aggressively, be courteous to other drivers on the road, and to obey rules such as the “right of way” in all instances. Defensive driving saves lives, time, and money",
             "Parking: Students are often surprised by the challenges of parking. Parallel parking, large garage parking, home garage parking, parking on hills – these are some of the circumstances involving parking. In all cases, parking requires effective command of your vehicle, but there are specific techniques you will study to cover these different parking circumstances.",

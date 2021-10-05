@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
-export const useTeam = (route) => {
+
+// Get Team Information From JSON 
+export const useTeam = () => {
     const [getTeam, setTeam] = useState([]);
-    let url = "./herodriving.json"
     useEffect(() => {
-        fetch(`${url}`)
+        fetch("./herodriving.json")
             .then(response => response.json()
                 .then(data => {
                     setTeam(data.Team)

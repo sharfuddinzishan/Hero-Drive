@@ -1,0 +1,15 @@
+.card-effect {
+    box-shadow: 0 8px 22px rgba(233, 227, 227, 0.247);
+    background-color: #fff;
+    padding: 25px;
+    transition: all 0.35s ease;
+}
+.card-effect:hover {
+    box-shadow: none;
+    transform: translateY(5px);
+}
+.team-member img {
+    width: 125px;
+    height: 125px;
+    border-radius: 100px;
+}

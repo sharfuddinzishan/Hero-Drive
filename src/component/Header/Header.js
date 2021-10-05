@@ -7,7 +7,7 @@ const Header = () => {
         <>
             <nav className="navbar navbar-expand-md navbar-light bg-light">
                 <div className="container-fluid">
-                    <a className="navbar-brand fw-bold" href="#">Hero Driving</a>
+                    <a className="navbar-brand fw-bold" href="/">Hero Driving</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -41,7 +41,7 @@ const Header = () => {
                                 <span className="nav-link" >About</span>
                             </NavLink>
                             <NavLink
-                                to="/team"
+                                to="/teams"
                                 activeStyle={{
                                     fontWeight: "bold",
                                     color: "red"

@@ -8,7 +8,7 @@ const NotFound = () => {
             <h1 className="text-warning display-1">404</h1>
             <p>The Page You Are Looking, Not Found</p>
             <NavLink
-                to="/home"
+                to="/"
                 activeStyle={{
                     fontWeight: "bold",
                     color: "red"

@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
-export const useCompany = (route) => {
+
+// Get Company Information 
+export const useCompany = () => {
     const [getCompany, setCompany] = useState([]);
-    let url = "./herodriving.json"
     useEffect(() => {
-        fetch(`${url}`)
+        fetch("./herodriving.json")
             .then(response => response.json()
                 .then(data => {
                     setCompany(data.Company)

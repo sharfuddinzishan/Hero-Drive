@@ -7,3 +7,6 @@ body{
     font-family:"Roboto Condensed";
     overflow-x: hidden;
 }
+a{
+    text-decoration: none;
+}

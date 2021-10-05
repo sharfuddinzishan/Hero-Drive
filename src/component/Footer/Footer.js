@@ -1,16 +1,51 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import './Footer.css'
-import { companyContext } from './../../App';
 
 const Footer = () => {
-    const [team, company] = useContext(companyContext)
-    console.log(company)
     return (
-        <div className="bg-dark text-center text-light p-5 mt-5">
-            <h1>Our Journey Start in {company.year_of}</h1>
-            <h4>Address: {company?.contact?.location_text}</h4>
-            <h4>Mobile: {company?.contact?.mobile[0]}</h4>
-        </div>
+        <footer>
+            <div className="container-fluid p-5">
+                <div className="row gy-4">
+                    <div className="col-md-4">
+                        {/* <img className="logo" src="img/logo.svg" alt="" /> */}
+                        <h1 className="text-white fw-bold">Hero Driving</h1>
+                    </div>
+                    <div className="col-md-2">
+                        <h5 className="text-light fw-bold">Menu</h5>
+                        <ul className="list-unstyled">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/about">About</a></li>
+                            <li><a href="/services">Services</a></li>
+                            <li><a href="/team">Our Team</a></li>
+                        </ul>
+                    </div>
+                    <div className="col-md-6">
+                        <h5 className="text-light fw-bold">Contact</h5>
+                        <ul className="list-unstyled contact-list">
+                            <li>Address: USA, LOS ANGELES,901 East E Street, Wilmington, CA 90744</li>
+                            <li>Email: margueritemckay@hero-driving.com</li>
+                            <li>Phone: (025) 805-0116</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div className="footer-bottom py-3">
+                <div className="container">
+                    <div className="row">
+                        <div className="col col-md-6">
+                            <small className="text-light">&copy; 2021 copyright all right reserved</small>
+                        </div>
+                        <div className="col col-md-6">
+                            <div className="social-icons">
+                                <a href="https://www.facebook.com/herodriving/" rel="noopener noreferrer" target="_blank"><i className='bx bxl-facebook'></i></a>
+                                <a href="https://www.twitter.com/herodriving/" rel="noopener noreferrer" target="_blank"><i className='bx bxl-twitter'></i></a>
+                                <a href="https://www.linkedin.com/herodriving/" rel="noopener noreferrer" target="_blank"><i className='bx bxl-linkedin'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     );
 };
 

@@ -10,34 +10,38 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Enrollment from './component/Enrollment/Enrollment';
 import Banner from './component/Banner/Banner';
 import { createContext } from 'react';
-import { useCompany } from './Hooks/useCompany';
 import { useTeam } from './Hooks/useTeam';
+import Teams from './component/Teams/Teams';
+import { useCompany } from './Hooks/useCompany';
+
+// Context Used To pass Company and Team Info To Components 
 export const companyContext = createContext()
+
 function App() {
+  // Get All Team Members
+  const [teams] = useTeam()
   // Get Company Details 
-  const [company, setCompany] = useCompany()
-  // Get Compnay All team Members 
-  const [team, setTeam] = useTeam()
+  const [company] = useCompany()
   return (
-    <companyContext.Provider value={[team, company]}>
-      <div>
+    <companyContext.Provider value={[teams, company]}>
+      <>
         <Router>
           <Header />
           <Switch>
             <Route exact path="/home">
-              <Banner></Banner>
+              <Banner />
+              {/* send props to Service container, to show only show 4 services in homepage */}
               <Services type="home_page"></Services>
             </Route>
+            {/* to show all services in services page */}
             <Route exact path="/services">
-              {/* if homepage then show 4 services, otherwise show all  */}
               <Services type="services_page"></Services>
             </Route>
             <Route exact path="/services/:serviceID">
               <ServiceDetails />
             </Route>
-            {/* If click on Team navlink on menubar then hide company information from about component  */}
-            <Route exact path="/team">
-              <About type="team_page"></About>
+            <Route exact path="/teams">
+              <Teams></Teams>
             </Route>
             <Route exact path="/about">
               <About></About>
@@ -58,7 +62,7 @@ function App() {
           </Switch>
           <Footer />
         </Router>
-      </div>
+      </>
     </companyContext.Provider>
   );
 }

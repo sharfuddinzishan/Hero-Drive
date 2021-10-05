@@ -1,0 +1,36 @@
+footer{
+    background-color: #21252f;
+}
+footer li a,.contact-list {
+    color: #888;
+}
+footer li a:hover {
+    color: #fff;
+}
+.footer-bottom {
+    background-color: #242933;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+.social-icons a {
+    width: 34px;
+    height: 34px;
+    background-color: #0d6efd;
+    border-radius: 2px solid #0d6efd;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    margin-left: 5px;
+    transition: all 0.4s ease;
+    border: 2px solid #0d6efd;
+}
+
+.social-icons a:hover {
+    color: #0d6efd;
+    background-color: transparent;
+    border-color: #0d6efd;
+}

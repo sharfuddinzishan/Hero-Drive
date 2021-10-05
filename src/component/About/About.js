@@ -1,26 +1,43 @@
-import React, { useContext } from 'react';
-import './About.css'
-import Team from './../Team/Team';
-import { companyContext } from './../../App';
-const About = (props) => {
-    const [team, company] = useContext(companyContext)
-    return (
-        <div className="container mt-5">
-            {
-                props.type !== "team_page" ? (<div className="bg-dark text-center text-light p-5 mt-5">
-                    <h1>Our Journey Start in {company.year_of}</h1>
-                    <h4>Address: {company?.contact?.location_text}</h4>
-                    <h4>Mobile: {company?.contact?.mobile[0]}</h4>
-                </div>) : ''
-            }
-            <div className="text-center">
-                <h1 className="text-danger display-4 fw-bold">Our <span className="text-warning">Team</span></h1>
-            </div>
+import React from 'react';
+import './About.css';
 
-            <div className="row row-cols-1 row-cols-md-3 g-3">
-                {
-                    team.map(team => <Team key={team.id} team={team}></Team>)
-                }
+const About = () => {
+    return (
+        <div className="container p-5">
+            <div className="row">
+                <div className="col-md-4">
+                    <img src="https://i.im.ge/2021/10/05/TJ7E2y.jpg" className="img-fluid" alt="" />
+                </div>
+                <div className="col-md-8 text-light">
+                    <h1 className="text-danger display-4 fw-bold">Our Journey <span className="text-warning">Start in 2018</span></h1>
+                    <p>
+                        To ensure safe roads for the dwellers, the authority has become extremely strict
+                        regarding the traffic laws. Thus to drive on the roads, there is not any escape
+                        than to know and oblige the rules. Apart from the law fact, safe driving should
+                        also be performed by us for our own sake. To have safe roads, we actually have
+                        to drive safely. Practical driving training is a must to attain driving skills.
+                        Most of the times, people choose to practice driving from relatives
+                        or friends except going to proper driving schools. But to drive safe you must get
+                        enrolled into our Hero Driving institute.
+                    </p>
+                    <h1> Facilities we offer: All the Exclusive Qualities You Want to Know</h1>
+                    <p> Though the List of driving school in Dhaka is quite long yet we have something
+                        new to offer you. We provide some magnificent facilities that you have never seen before.
+                    </p>
+
+                    <b>What we offer:</b>
+                    <ol className="list-group list-group-numbered">
+                        <li className="list-group-item ">We offer hostel facilities during your learning period.</li>
+                        <li className="list-group-item">Our classrooms are well equipped, large and can accommodate
+                            a smart number of candidates.
+                        </li>
+                        <li className="list-group-item">We ensure driving instructors who are expert and give you
+                            solutions to your every query.
+                        </li>
+                        <li className="list-group-item">We offer job facilities in our own institute.</li>
+                        <li className="list-group-item">You will receive a cordial and friendly learning atmosphere.</li>
+                    </ol>
+                </div>
             </div>
         </div>
     );

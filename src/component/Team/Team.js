@@ -1,26 +1,35 @@
 import React from 'react';
 import './Team.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFax, faPhone } from '@fortawesome/free-solid-svg-icons'
+
 const Team = (props) => {
     const { name, year_of_experience: experience, role, skills, picture, contact, } = props.team || {}
-    const { fullImage: fullPic, thumbImage: thumbPic } = picture || {}
-    const { mobile, email, socialLink } = contact || {}
+    const { thumbImage: thumbPic } = picture || {}
+    const { mobile, email, socialLink: { facebook, twitter, linkedin } } = contact || {}
     return (
         <>
-            <div className="card">
-                <img src={thumbPic} className="card-img-top p-2 img-fluid" alt={name} />
-                <div className="card-body">
-                    <h5 className="card-title">{name}</h5>
-                    <span className="text-info">{role}</span>
-                    <small className="ms-2 text-white">Experience {experience} years</small>
+            <div className="col col-md-6 col-lg-4">
+                <div className="card team-member card-effect h-100">
+                    <div className="team_member_info">
+                        <img src={thumbPic} alt={name || "No Profile Picture Available"} className="img-fluid" />
+                        <h5 className="mb-0 mt-4">{name}</h5>
+                        <p>{role}</p>
+                        <strong>{experience} Years of Experience</strong> <br />
+                        <small>Mobile: {mobile[0] || "N/A"}</small> <br />
+                        <small>Email: {email[0] || "N/A"}</small> <br />
+                        <small>{skills}</small>
+                    </div>
+                    <div className="social-icons">
+                        {
+                            facebook && <a href={facebook}><i className='bx bxl-facebook'></i></a>
+                        }
+                        {
+                            twitter && <a href={twitter}><i className='bx bxl-twitter'></i></a>
+                        }
+                        {
+                            linkedin && <a href={linkedin}><i className='bx bxl-linkedin'></i></a>
+                        }
+                    </div>
                 </div>
-                <ul className="list-group list-group-flush">
-                    {mobile?.map(pd => <li className="list-group-item"><FontAwesomeIcon className="me-1 text-info" icon={faPhone} />{pd}</li>)}
-                    {email?.map(pd => <li className="list-group-item"><FontAwesomeIcon className="me-1 text-info" icon={faFax} />{pd}</li>)}
-                    <li className="list-group-item">{socialLink?.facebook}</li>
-                    <li className="list-group-item">{socialLink?.twitter}</li>
-                </ul>
             </div>
         </>
     );
