@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="row gy-4">
                     <div className="col-md-4">
                         {/* <img className="logo" src="img/logo.svg" alt="" /> */}
-                        <h1 className="text-white fw-bold">Hero Driving</h1>
+                        <h1 className="text-white fw-bold">Safely Driving</h1>
                     </div>
                     <div className="col-md-2">
                         <h5 className="text-light fw-bold">Menu</h5>
@@ -24,7 +24,7 @@ const Footer = () => {
                         <h5 className="text-light fw-bold">Contact</h5>
                         <ul className="list-unstyled contact-list">
                             <li>Address: USA, LOS ANGELES,901 East E Street, Wilmington, CA 90744</li>
-                            <li>Email: margueritemckay@hero-driving.com</li>
+                            <li>Email: margueritemckay@Safely-driving.com</li>
                             <li>Phone: (025) 805-0116</li>
                         </ul>
                     </div>
@@ -38,9 +38,9 @@ const Footer = () => {
                         </div>
                         <div className="col col-md-6">
                             <div className="social-icons">
-                                <a href="https://www.facebook.com/herodriving/" rel="noopener noreferrer" target="_blank"><i className='bx bx-flashing bxl-facebook'></i></a>
-                                <a href="https://www.twitter.com/herodriving/" rel="noopener noreferrer" target="_blank"><i className='bx bx-flashing bxl-twitter'></i></a>
-                                <a href="https://www.linkedin.com/herodriving/" rel="noopener noreferrer" target="_blank"><i className='bx bx-flashing bxl-linkedin'></i></a>
+                                <a href="https://www.facebook.com/Safelydriving/" rel="noopener noreferrer" target="_blank"><i className='bx bx-flashing bxl-facebook'></i></a>
+                                <a href="https://www.twitter.com/Safelydriving/" rel="noopener noreferrer" target="_blank"><i className='bx bx-flashing bxl-twitter'></i></a>
+                                <a href="https://www.linkedin.com/Safelydriving/" rel="noopener noreferrer" target="_blank"><i className='bx bx-flashing bxl-linkedin'></i></a>
                             </div>
                         </div>
                     </div>

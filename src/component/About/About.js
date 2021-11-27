@@ -17,7 +17,7 @@ const About = () => {
                         to drive safely. Practical driving training is a must to attain driving skills.
                         Most of the times, people choose to practice driving from relatives
                         or friends except going to proper driving schools. But to drive safe you must get
-                        enrolled into our Hero Driving institute.
+                        enrolled into our Safely Driving institute.
                     </p>
                     <h1> Facilities we offer: All the Exclusive Qualities You Want to Know</h1>
                     <p> Though the List of driving school in Dhaka is quite long yet we have something
